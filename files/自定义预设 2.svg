@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="143px" viewBox="0 0 144 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自定义预设 2</title>
+    <g id="自定义预设-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" transform="translate(-2.000000, -4.591883)" stroke="#979797" stroke-width="7">
+            <path d="M95,11.5918831 L105.392305,29.5918831 L84.6076952,29.5918831 L95,11.5918831 Z" id="多边形"></path>
+            <path d="M58,51.5918831 L68.3923048,69.5918831 L47.6076952,69.5918831 L58,51.5918831 Z" id="多边形"></path>
+            <path d="M19,89.5918831 L29.3923048,107.591883 L8.60769515,107.591883 L19,89.5918831 Z" id="多边形"></path>
+            <path d="M130,124.591883 L140.392305,142.591883 L119.607695,142.591883 L130,124.591883 Z" id="多边形"></path>
+            <circle id="椭圆形" cx="129" cy="19.5918831" r="11.5"></circle>
+            <circle id="椭圆形" cx="96" cy="59.5918831" r="11.5"></circle>
+            <circle id="椭圆形" cx="59" cy="97.5918831" r="11.5"></circle>
+            <circle id="椭圆形" cx="19" cy="130.591883" r="11.5"></circle>
+            <rect id="矩形" x="46.5" y="8.09188309" width="23" height="23"></rect>
+            <rect id="矩形" x="8.5" y="46.0918831" width="23" height="23"></rect>
+            <rect id="矩形" x="117.5" y="87.0918831" width="23" height="23"></rect>
+            <rect id="矩形" x="85.5" y="120.091883" width="23" height="23"></rect>
+            <g id="编组" transform="translate(19.500000, 19.091883) rotate(45.000000) translate(-19.500000, -19.091883) translate(6.000000, 5.591883)" stroke-linecap="square">
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线"></line>
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></line>
+            </g>
+            <g id="编组" transform="translate(129.500000, 59.091883) rotate(45.000000) translate(-129.500000, -59.091883) translate(116.000000, 45.591883)" stroke-linecap="square">
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线"></line>
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></line>
+            </g>
+            <g id="编组" transform="translate(96.500000, 99.091883) rotate(45.000000) translate(-96.500000, -99.091883) translate(83.000000, 85.591883)" stroke-linecap="square">
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线"></line>
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></line>
+            </g>
+            <g id="编组" transform="translate(58.500000, 131.091883) rotate(45.000000) translate(-58.500000, -131.091883) translate(45.000000, 117.591883)" stroke-linecap="square">
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线"></line>
+                <line x1="13.5" y1="0.5" x2="13.5" y2="26.5" id="直线" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></line>
+            </g>
+        </g>
+    </g>
+</svg>
