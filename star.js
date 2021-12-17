@@ -1,7 +1,12 @@
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext('2d')
-canvas.width = window.innerWidth
-canvas.height = document.body.scrollHeight
+// canvas.width = window.innerWidth
+// canvas.width = document.body.scrollWidth
+// canvas.height = document.body.scrollHeight
+const abs__width = document.body.scrollWidth
+const abs__height = document.body.scrollHeight
+let loc = document.querySelector('.index__container')
+
 
 class Star {
     constructor(ctx, r, x, y, rot, borderWidth, borderStyle, fillStyle, opacity) {
@@ -9,7 +14,7 @@ class Star {
         this.r = r;
         this.ratio = 1.875;
         this.r2 = r * this.ratio
-        this.x = x - 30;
+        this.x = x + window.scrollX;
         this.y = y + window.scrollY;
         this.rot = rot;
         this.borderWidth = borderWidth;
@@ -73,8 +78,14 @@ window.addEventListener('mousemove', function (event) {
 
 window.addEventListener('click', function (event) {
     mouseClick.x = event.x
-    mouseClick.y = event.y
     sprayClick.x = event.x
+    // if (loc == null) {
+
+    // } else {
+    //     mouseClick.x = event.x
+    //     sprayClick.x = event.x
+    // }
+    mouseClick.y = event.y
     sprayClick.y = event.y
 })
 
@@ -132,7 +143,7 @@ function RandomNumBoth(Min, Max) {
 function animate() {
 
     ctx.clearRect(0, 0, innerWidth, innerHeight);
-    canvas.width = window.innerWidth
+    canvas.width = document.body.scrollWidth
     canvas.height = document.body.scrollHeight
     // canvas.height = window.innerHeight
     for (var i = 0; i < positions.length; i++) {
@@ -150,14 +161,10 @@ function animate() {
         d += move;
         move = 0;
         let trigger = d % dtrigger
-
-
         if (trigger < lastTrigger) {
             let star = new Star(ctx, 6, mouse.x, mouse.y, 0, "2", "white", null)
             star.draw();
             save(mouse.x, mouse.y, 6)
-
-
         }
 
 
@@ -203,7 +210,6 @@ function animate() {
     //Spary--End
 
     if (mouseClick.x != undefined) {
-
         let star = new Star(ctx, 0, mouseClick.x, mouseClick.y, 0, "2", "rgba(255, 255, 255, 1)", null)
         star.draw();
         clickSave(mouseClick.x, mouseClick.y, 0, 1)
