@@ -756,7 +756,7 @@ h2.subttl::before {
 	display: inline-block;
 	padding: 0.9em 5em;
 	border-radius: 30px;
-	background-color: #F5B374;
+	background-color: orange;
 	font-size: 1.6rem;
 	color: #fff;
 	font-weight: 500;
